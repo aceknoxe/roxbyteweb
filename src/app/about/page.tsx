@@ -19,7 +19,7 @@ export default function About() {
             <section className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-8">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-gray-300 mb-6">
-                At RoxByte, we're passionate about pushing the boundaries of technology. Founded with a vision to bridge the gap between innovative ideas and real-world solutions, we specialize in creating cutting-edge electronics, embedded systems, and software solutions.
+                At RoxByte, we&apos;re passionate about pushing the boundaries of technology. Founded with a vision to bridge the gap between innovative ideas and real-world solutions, we specialize in creating cutting-edge electronics, embedded systems, and software solutions.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
                 <div className="text-center p-4">

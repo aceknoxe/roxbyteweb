@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Stars, useGLTF } from '@react-three/drei';
+import { OrbitControls, Stars } from '@react-three/drei';
 import { useRef } from 'react';
 import LoadingSpinner from './LoadingSpinner';
 import * as THREE from 'three';
