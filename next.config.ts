@@ -13,7 +13,6 @@ const nextConfig: NextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   experimental: {
-    optimizeCss: true,
     turbo: {
       rules: {
         "*.svg": ['@svgr/webpack'],
