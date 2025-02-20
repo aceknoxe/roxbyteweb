@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 bg-gray-900/50 backdrop-blur-sm border-t border-gray-800">
+    <footer className="relative z-10 bg-gray-900/50 backdrop-blur-sm border-t border-gray-800 rounded-t-[2rem] shadow-lg">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-              RoxByte
+            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 hover:scale-105 transition-transform">
+              Roxbyte
             </Link>
             <p className="text-gray-300">
               Innovating the future through technology. We specialize in electronics, embedded systems, and software development.
@@ -17,22 +17,22 @@ export default function Footer() {
           </div>
           
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-white">Quick Links</h3>
+            <h3 className="text-lg font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-300 hover:text-blue-400 transition-colors">Home</Link></li>
-              <li><Link href="/about" className="text-gray-300 hover:text-blue-400 transition-colors">About</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Services</Link></li>
-              <li><Link href="/portfolio" className="text-gray-300 hover:text-blue-400 transition-colors">Portfolio</Link></li>
+              <li><Link href="/" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Home</Link></li>
+              <li><Link href="/about" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">About</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Services</Link></li>
+              <li><Link href="/portfolio" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Portfolio</Link></li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-white">Services</h3>
+            <h3 className="text-lg font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">Services</h3>
             <ul className="space-y-2">
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Electronics Projects</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Embedded Systems</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Software Development</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">IoT Solutions</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Electronics Projects</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Embedded Systems</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">Software Development</Link></li>
+              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 hover:scale-105 transition-all px-2 py-1 rounded-lg hover:bg-gray-800/50 inline-block">IoT Solutions</Link></li>
             </ul>
           </div>
           
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© 2024 RoxByte. All rights reserved.</p>
+          <p>© 2025 RoxByte. All rights reserved.</p>
         </div>
       </div>
     </footer>
