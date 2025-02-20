@@ -63,5 +63,6 @@ const Scene = () => {
 };
 
 export default dynamic(() => Promise.resolve(Scene), {
-  ssr: false
-})
+  ssr: false,
+  loading: () => <LoadingSpinner />
+});
